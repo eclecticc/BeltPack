@@ -1,0 +1,12 @@
+Sources for Makita Battery Model
+
+DeWalt Battery Model (https://www.thingiverse.com/thing:1809116)
+Ridgid power tool Battery model (https://www.thingiverse.com/thing:1441414)
+Ryobi One+ Battery model  (https://www.thingiverse.com/thing:1436651)
+Makita battery to Ryobi adapter (https://www.thingiverse.com/thing:1811192)
+Bosch Battery Model (https://www.thingiverse.com/thing:1815758)
+Milwaukee battery model (https://www.thingiverse.com/thing:1816586)
+Ridgid to Ryobi battery adapter  (https://www.thingiverse.com/thing:1861937)
+Kobalt 24v battery model (https://www.thingiverse.com/thing:1904411)
+USB Power Bank for Ryobi 18v One+ battery (https://www.thingiverse.com/thing:1897607)
+Kobalt 24v battery to Ryobi adapter (https://www.thingiverse.com/thing:1914299)
