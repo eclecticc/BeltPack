@@ -546,8 +546,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3500 8700 4700
 Wire Wire Line
-	6400 3100 7100 3100
-Wire Wire Line
 	9100 3100 9100 4700
 $Comp
 L power:GND #PWR0101
@@ -611,7 +609,7 @@ F 1 "SUD50P04-08" V 7552 1200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7495 1125 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/65594/sud50p04-08.pdf" H 7300 1200 50  0001 C CNN
 	1    7300 1200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -680,8 +678,6 @@ F 3 "https://www.vishay.com/docs/65594/sud50p04-08.pdf" H 6700 1200 50  0001 C C
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6900 1100 7100 1100
-Wire Wire Line
 	6700 1400 7300 1400
 Wire Wire Line
 	6700 3000 6400 3000
@@ -692,14 +688,6 @@ Wire Wire Line
 Connection ~ 4700 3000
 Wire Wire Line
 	4700 3000 2600 3000
-Wire Wire Line
-	7100 1100 7100 3100
-Connection ~ 7100 1100
-Connection ~ 7100 3100
-Wire Wire Line
-	7100 3100 9100 3100
-Wire Wire Line
-	7500 1100 7500 2200
 Connection ~ 7500 4100
 Wire Wire Line
 	7500 4100 7700 4100
@@ -723,7 +711,7 @@ F 1 "SUD50P04-08" V 8752 1700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 8695 1625 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/65594/sud50p04-08.pdf" H 8500 1700 50  0001 C CNN
 	1    8500 1700
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Transistor_FET:SUD50P04-08 Q5
@@ -745,25 +733,15 @@ F 1 "SUD50P04-08" V 10052 2200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9995 2125 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/65594/sud50p04-08.pdf" H 9800 2200 50  0001 C CNN
 	1    9800 2200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8100 1600 8200 1600
-Wire Wire Line
 	8200 1600 8200 3500
-Connection ~ 8200 1600
-Wire Wire Line
-	8200 1600 8300 1600
 Connection ~ 8200 3500
 Wire Wire Line
 	8200 3500 8700 3500
 Wire Wire Line
-	9400 2100 9500 2100
-Wire Wire Line
 	9500 2100 9500 3900
-Connection ~ 9500 2100
-Wire Wire Line
-	9500 2100 9600 2100
 Connection ~ 8300 3900
 Wire Wire Line
 	7900 1900 8500 1900
@@ -782,16 +760,10 @@ Wire Wire Line
 	9200 3800 6400 3800
 Connection ~ 9200 2400
 Wire Wire Line
-	8700 1600 8800 1600
-Wire Wire Line
 	8800 1600 8800 4100
 Wire Wire Line
 	8800 4100 7900 4100
 Connection ~ 7900 4100
-Wire Wire Line
-	10000 2100 10000 4100
-Wire Wire Line
-	10000 4100 8800 4100
 Connection ~ 8800 4100
 Wire Wire Line
 	7700 1600 4900 1600
@@ -877,7 +849,6 @@ Wire Wire Line
 	6700 2500 6850 2500
 Wire Wire Line
 	6850 2200 7500 2200
-Connection ~ 7500 2200
 Wire Wire Line
 	7500 2200 7500 4100
 Connection ~ 4700 1100
@@ -889,9 +860,6 @@ Connection ~ 4900 1600
 Wire Wire Line
 	5100 2100 4300 2100
 Connection ~ 5100 2100
-Wire Wire Line
-	10000 4100 10200 4100
-Connection ~ 10000 4100
 Text Label 4300 1100 0    50   ~ 0
 V1
 Text Label 4300 1600 0    50   ~ 0
@@ -1080,4 +1048,36 @@ Wire Wire Line
 	4100 6500 4100 7100
 Wire Wire Line
 	6000 5900 6000 7200
+Connection ~ 7500 2200
+Wire Wire Line
+	7500 1100 7500 2200
+Wire Wire Line
+	7100 3100 9100 3100
+Wire Wire Line
+	6400 3100 7100 3100
+Connection ~ 7100 3100
+Wire Wire Line
+	7100 1100 7100 3100
+Wire Wire Line
+	6900 1100 7100 1100
+Connection ~ 7100 1100
+Wire Wire Line
+	8100 1600 8200 1600
+Wire Wire Line
+	8200 1600 8300 1600
+Connection ~ 8200 1600
+Wire Wire Line
+	8700 1600 8800 1600
+Wire Wire Line
+	8800 4100 10000 4100
+Wire Wire Line
+	9400 2100 9500 2100
+Wire Wire Line
+	9500 2100 9600 2100
+Connection ~ 9500 2100
+Wire Wire Line
+	10000 2100 10000 4100
+Connection ~ 10000 4100
+Wire Wire Line
+	10000 4100 10200 4100
 $EndSCHEMATC
